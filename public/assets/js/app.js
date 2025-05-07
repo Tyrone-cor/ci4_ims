@@ -26,9 +26,11 @@ function showContent(section) {
         switch(section) {
             case 'dashboard':
                 loadDashboardData();
+                updateTopStats(); // Refresh top stats when showing dashboard
                 break;
             case 'products':
                 loadProducts();
+                updateTopStats(); // Refresh top stats when showing products
                 break;
             case 'categories':
                 loadCategoriesDisplay();
@@ -1327,13 +1329,19 @@ async function saveGeneratedReport(title, type, data) {
 // Dashboard functions
 async function loadDashboardData() {
     try {
-        // Fetch products
+        // Fetch products data
         const productsResponse = await fetch(`${getBaseUrl()}/products`, {
+            method: 'GET',
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
             }
         });
+        
+        if (!productsResponse.ok) {
+            throw new Error('Failed to fetch products');
+        }
+        
         const productsData = await productsResponse.json();
         const products = productsData.data || [];
 
@@ -1366,32 +1374,41 @@ async function loadDashboardData() {
         document.getElementById('totalStockValue').textContent = 
             '₱' + totalStockValue.toFixed(2);
 
-        // Update stock status
-        document.getElementById('inStockCount').textContent = inStock;
-        document.getElementById('lowStockCount').textContent = lowStock;
-        document.getElementById('outOfStockCount').textContent = outOfStock;
+        // Update stock status in the dashboard card
+        const dashboardInStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #inStockCount');
+        const dashboardLowStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #lowStockCount');
+        const dashboardOutOfStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #outOfStockCount');
+        
+        if (dashboardInStockCount) dashboardInStockCount.textContent = inStock;
+        if (dashboardLowStockCount) dashboardLowStockCount.textContent = lowStock;
+        if (dashboardOutOfStockCount) dashboardOutOfStockCount.textContent = outOfStock;
 
         // Update recent products table
         const recentProducts = document.getElementById('recentProducts');
-        recentProducts.innerHTML = '';
-        
-        products.slice(0, 5).forEach(product => {
-            recentProducts.innerHTML += `
-                <tr>
-                    <td>${product.name}</td>
-                    <td>${product.category_name || ''}</td>
-                    <td>
-                        <span class="badge bg-${product.stock > 10 ? 'success' : 
-                            product.stock > 0 ? 'warning' : 'danger'}">${product.stock}</span>
-                    </td>
-                    <td>₱${parseFloat(product.price).toFixed(2)}</td>
-                </tr>
-            `;
-        });
+        if (recentProducts) {
+            recentProducts.innerHTML = '';
+            
+            if (products.length === 0) {
+                recentProducts.innerHTML = '<tr><td colspan="4" class="text-center">No products found</td></tr>';
+            } else {
+                products.slice(0, 5).forEach(product => {
+                    recentProducts.innerHTML += `
+                        <tr>
+                            <td>${escapeHtml(product.name)}</td>
+                            <td>${escapeHtml(product.category_name || '')}</td>
+                            <td>
+                                <span class="badge bg-${product.stock > 10 ? 'success' : 
+                                    product.stock > 0 ? 'warning' : 'danger'}">${product.stock}</span>
+                            </td>
+                            <td>₱${parseFloat(product.price).toFixed(2)}</td>
+                        </tr>
+                    `;
+                });
+            }
+        }
 
     } catch (error) {
         console.error('Error loading dashboard data:', error);
-        alert('Failed to load dashboard data');
     }
 }
 
@@ -2095,3 +2112,78 @@ function setupFormHandlers() {
     // or we can add specific form initialization code here if needed
     console.log('Form handlers initialized');
 }
+
+// Function to update the top stats cards
+async function updateTopStats() {
+    try {
+        // Fetch products data
+        const response = await fetch(`${getBaseUrl()}/products`, {
+            headers: {
+                'Accept': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch products');
+        }
+
+        const result = await response.json();
+        const products = result.data || [];
+        
+        // Calculate stats
+        const totalProducts = products.length;
+        const inStock = products.filter(p => p.stock > 10).length;
+        const lowStock = products.filter(p => p.stock > 0 && p.stock <= 10).length;
+        const outOfStock = products.filter(p => p.stock == 0).length;
+        
+        // Calculate percentages
+        const inStockPercentage = totalProducts > 0 ? ((inStock / totalProducts) * 100).toFixed(1) : 0;
+        const lowStockPercentage = totalProducts > 0 ? ((lowStock / totalProducts) * 100).toFixed(1) : 0;
+        const outOfStockPercentage = totalProducts > 0 ? ((outOfStock / totalProducts) * 100).toFixed(1) : 0;
+        
+        // Update the UI
+        document.getElementById('totalProductsCount').textContent = totalProducts;
+        document.getElementById('inStockCount').textContent = inStock;
+        document.getElementById('lowStockCount').textContent = lowStock;
+        document.getElementById('outOfStockCount').textContent = outOfStock;
+        
+        // Update percentage texts
+        document.getElementById('inStockPercentage').textContent = `${inStockPercentage}% of total`;
+        document.getElementById('lowStockChangeText').textContent = `${lowStockPercentage}% of total`;
+        document.getElementById('outOfStockChangeText').textContent = `${outOfStockPercentage}% of total`;
+        
+        // Update change indicators based on stock status
+        document.getElementById('productsChangeText').textContent = 
+            `${totalProducts} total products`;
+            
+        // Set appropriate icons for indicators
+        if (lowStock > 0) {
+            document.getElementById('lowStockChangeIndicator').innerHTML = 
+                `<i class="bi bi-exclamation-circle"></i> <span id="lowStockChangeText">${lowStockPercentage}% of total</span>`;
+        } else {
+            document.getElementById('lowStockChangeIndicator').innerHTML = 
+                `<i class="bi bi-check-circle"></i> <span id="lowStockChangeText">No low stock items</span>`;
+        }
+        
+        if (outOfStock > 0) {
+            document.getElementById('outOfStockChangeIndicator').innerHTML = 
+                `<i class="bi bi-exclamation-triangle"></i> <span id="outOfStockChangeText">${outOfStockPercentage}% of total</span>`;
+        } else {
+            document.getElementById('outOfStockChangeIndicator').innerHTML = 
+                `<i class="bi bi-check-circle"></i> <span id="outOfStockChangeText">No out of stock items</span>`;
+        }
+        
+    } catch (error) {
+        console.error('Error updating top stats:', error);
+        // Don't show an alert for this error to avoid disrupting the UI
+    }
+}
+
+// Call updateTopStats when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    updateTopStats();
+    
+    // Refresh stats every 5 minutes
+    setInterval(updateTopStats, 300000);
+});
