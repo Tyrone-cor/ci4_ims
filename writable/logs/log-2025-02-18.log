@@ -1,0 +1,77 @@
+CRITICAL - 2025-02-18 10:21:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(11): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-18 10:31:24 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\<!-- DEBUG-VIEW START 1 APPPATH\Views\students\registration.php -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/students/register" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\students\registration.php -->
+"
+[Method: GET, Route: students/registration]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\<!-- DEBUG-VIEW START 1 APPPATH\\Views\\students\\registration.php -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/students/register" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\students\\registration.php -->
+')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('students/registration')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('students/registration')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

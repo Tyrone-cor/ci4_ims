@@ -1,0 +1,461 @@
+/* Layout Improvements */
+:root {
+  --sidebar-width: .5em;
+  --sidebar-collapsed-width: 70px;
+  --header-height: 60px;
+  --primary-color: #4361ee;
+  --primary-hover: #3a56d4;
+  --secondary-color: #4d4d4d;
+  --accent-color: #4cc9f0;
+  --success-color: #2ecc71;
+  --warning-color: #f39c12;
+  --danger-color: #e74c3c;
+  --light-bg: #f8f9fa;
+  --dark-bg: #1e2a3a;
+  --border-color: #e9ecef;
+  --text-muted: #6c757d;
+  --box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --box-shadow-lg: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: var(--secondary-color);
+  background-color: #f5f7fa;
+  overflow-x: hidden;
+}
+
+/* App Container */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: var(--sidebar-width);
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  background: linear-gradient(180deg, var(--dark-bg) 0%, #2c3e50 100%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Simplified sidebar header styling */
+.sidebar-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+/* Ensure proper display on smaller screens */
+@media (max-width: 576px) {
+  .sidebar-header .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidebar-header .text-white-50.small {
+    margin-top: 0.5rem;
+  }
+}
+
+.sidebar .nav-link {
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transform: translateX(5px);
+}
+
+.sidebar .nav-link i {
+  margin-right: 0.75rem;
+  font-size: 1.1rem;
+  width: 20px;
+  text-align: center;
+}
+
+.sidebar-divider {
+  height: 1px;
+  margin: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Avatar styling for sidebar */
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  background-color: var(--primary-color);
+}
+
+/* Sidebar footer styling */
+.sidebar-footer {
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1025;
+  display: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.sidebar-backdrop.show {
+  display: block;
+  opacity: 1;
+}
+
+/* Main Content Area */
+.main-content {
+  margin-left: var(--sidebar-width);
+  width: calc(100% - var(--sidebar-width));
+  min-height: 100vh;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar styling */
+.navbar {
+  height: var(--header-height);
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-text {
+  color: var(--secondary-color);
+}
+
+/* Adjust spacing for the simplified navbar */
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+/* Date styling */
+.navbar .navbar-text.small {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+/* Make the page title stand out more */
+.navbar h5.navbar-text {
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar .container-fluid {
+    flex-wrap: nowrap;
+  }
+  
+  .navbar .ms-3.me-auto {
+    margin-left: 0.5rem !important;
+  }
+  
+  .navbar .navbar-text.small {
+    font-size: 0.75rem;
+  }
+  
+  .navbar h5.navbar-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Page Content */
+.page-content {
+  flex: 1;
+  background-color: #f5f7fa;
+}
+
+/* Simplified navbar styling */
+.navbar {
+  height: var(--header-height);
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-text {
+  color: var(--secondary-color);
+}
+
+/* Adjust spacing for the simplified navbar */
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+/* Make the page title stand out more */
+.navbar h5.navbar-text {
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+/* Ensure the toggle button is properly styled */
+#sidebarToggle {
+  display: none;
+  color: var(--secondary-color);
+  background: transparent;
+  border-radius: 0.5rem;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  #sidebarToggle {
+    display: flex;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.show {
+    transform: translateX(0);
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  #sidebarToggle {
+    display: flex;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .page-content {
+    padding: 1rem !important;
+  }
+}
+
+/* Fix for body overflow when sidebar is open */
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Dashboard Cards */
+.stats-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.stats-card .stats-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  opacity: 0.2;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-lg);
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 1.25rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Button Styling */
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+/* Table Styling */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-top: none;
+  background-color: var(--light-bg);
+  padding: 1rem;
+}
+
+.table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(67, 97, 238, 0.05);
+}
+
+/* Form Controls */
+.form-control, .form-select {
+  border-radius: 0.5rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(67, 97, 238, 0.25);
+}
+
+/* Dashboard header styling */
+.dashboard-header {
+  margin-top: 0 !important;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+/* Navbar date styling with increased margin */
+.navbar .ms-5.me-auto {
+    margin-left: 4rem !important; /* Increased margin to avoid sidebar overlap */
+}
+
+.navbar .navbar-text.small {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (min-width: 992px) {
+    /* For desktop, add even more margin when sidebar is expanded */
+    .navbar .ms-5.me-auto {
+        margin-left: 5rem !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* For tablets, adjust margin when sidebar is collapsed */
+    .navbar .ms-5.me-auto {
+        margin-left: 3rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* For mobile, reduce margin */
+    .navbar .ms-5.me-auto {
+        margin-left: 2rem !important;
+    }
+    
+    .navbar .navbar-text.small {
+        font-size: 0.75rem;
+    }
+}
+
+/* Centered date styling */
+.navbar .mx-auto.text-center {
+    position: absolute;
+    left: 21.5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.navbar .navbar-text.small {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .navbar .mx-auto.text-center {
+        position: static;
+        transform: none;
+        margin-right: 1rem !important;
+    }
+    
+    .navbar .container-fluid {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-text.small {
+        font-size: 0.75rem;
+    }
+    
+    .navbar h5.navbar-text {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,1306 @@
+INFO - 2024-09-03 00:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:00:43 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:00:46 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:01:16 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:01:37 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:01:37 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:01:37 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:02:34 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:02:34 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:02:34 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:02:53 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:02:53 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\outlines\index.php on line 98.
+ 1 APPPATH\Views\outlines\index.php(98): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\outlines\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('outlines/index', [], true)
+ 5 APPPATH\Controllers\Students.php(514): view('outlines/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->outlines()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:30 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:34 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:39 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:41 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:41 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:41 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:43 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:43 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\outlines\index.php on line 98.
+ 1 APPPATH\Views\outlines\index.php(98): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\outlines\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('outlines/index', [], true)
+ 5 APPPATH\Controllers\Students.php(514): view('outlines/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->outlines()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:57 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:57 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:57 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:03:59 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 00:03:59 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\outlines\index.php on line 98.
+ 1 APPPATH\Views\outlines\index.php(98): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\outlines\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('outlines/index', [], true)
+ 5 APPPATH\Controllers\Students.php(514): view('outlines/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->outlines()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:07:11 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-03 00:07:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`....' at line 1 in C:\xampp\htdocs\eresearch\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\eresearch\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `outline...', 0)
+#1 C:\xampp\htdocs\eresearch\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline...')
+#2 C:\xampp\htdocs\eresearch\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline...')
+#3 C:\xampp\htdocs\eresearch\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline...', Array, false)
+#4 C:\xampp\htdocs\eresearch\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\eresearch\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\eresearch\app\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420c...')
+#8 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+#9 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\eresearch\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\eresearch\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\eresearch\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-03 00:07:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`....' at line 1
+[Method: GET, Route: outlines/print/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 00:07:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`....' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 00:07:13 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`....' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate` `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-03 00:07:48 --> mysqli_sql_exception: Unknown column 'nomination.id' in 'field list' in C:\xampp\htdocs\eresearch\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\eresearch\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `outline...', 0)
+#1 C:\xampp\htdocs\eresearch\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline...')
+#2 C:\xampp\htdocs\eresearch\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline...')
+#3 C:\xampp\htdocs\eresearch\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline...', Array, false)
+#4 C:\xampp\htdocs\eresearch\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\eresearch\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\eresearch\app\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420c...')
+#8 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+#9 C:\xampp\htdocs\eresearch\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\eresearch\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\eresearch\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\eresearch\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-03 00:07:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nomination.id' in 'field list'
+[Method: GET, Route: outlines/print/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 00:07:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nomination.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 00:07:48 --> [Caused by] mysqli_sql_exception: Unknown column 'nomination.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = \'c498d1a73bb420caef7a1826965c8262\'
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `outline`.`date`, `nomination`.`id`, `outline`.`titleid`, `title`.`title`, getstudentcourse(studentid) as coursename, `outline`.`adviser`, concat(adviser.firstname, " ", Left(adviser.middlename, 1), ". ", adviser.lastname) as adviser_name, `outline`.`adviser_status`, `outline`.`member1`, concat(member1.firstname, " ", Left(member1.middlename, 1), ". ", member1.lastname) as member1_name, `outline`.`member1_status`, `outline`.`member2`, concat(member2.firstname, " ", Left(member2.middlename, 1), ". ", member2.lastname) as member2_name, `outline`. `member2_status`, `outline`.`english_critic`, concat(english_critic.firstname, " ", Left(english_critic.middlename, 1), ". ", english_critic.lastname) as english_critic_name, `outline`. `english_critic_status`, `outline`.`statiscian`, concat(statiscian.firstname, " ", Left(statiscian.middlename, 1), ". ", statiscian.lastname) as statiscian_name, `outline`.`statiscian_status`, `outline`.`dean`, concat(dean.firstname, " ", Left(dean.middlename, 1), ". ", dean.lastname) as dean_name, `outline`.`dean_status`, `outline`.`researchcoordinator`, concat(researchcoordinator.firstname, " ", Left(researchcoordinator.middlename, 1), ". ", researchcoordinator.lastname) as researchcoordinator_name, `outline`.`researchcoordinator__status`, `outline`.`campus_director`, concat(campus_director.firstname, " ", Left(campus_director.middlename, 1), ". ", campus_director.lastname) as campus_director_name, `outline`.`campus_director_status`, `outline`.`comments`, `outline`.`recordstatus`, `outline`.`scheduleddate`, `outline`.`scheduledtime`, `outline`.`venue`
+FROM `title`
+JOIN `outline` ON `outline`.`titleid`=`title`.`id`
+JOIN `faculties` as `adviser` ON `adviser`.`employeeid`=`outline`.`adviser`
+JOIN `faculties` as `member1` ON `member1`.`employeeid`=`outline`.`member1`
+JOIN `faculties` as `member2` ON `member2`.`employeeid`=`outline`.`member2`
+JOIN `faculties` as `english_critic` ON `english_critic`.`employeeid`=`outline`.`english_critic`
+JOIN `faculties` as `dean` ON `dean`.`employeeid`=`outline`.`dean`
+JOIN `faculties` as `statiscian` ON `statiscian`.`employeeid`=`outline`.`statiscian`
+JOIN `faculties` as `researchcoordinator` ON `researchcoordinator`.`employeeid`=`outline`.`researchcoordinator`
+JOIN `faculties` as `campus_director` ON `campus_director`.`employeeid`=`outline`.`campus_director`
+WHERE MD5(concat(title.date,title.id)) = :MD5(concat(title.date,title.id)):
+AND `title`.`datedeleted` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Outlines.php(145): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 00:10:23 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+[Method: GET, Route: outlines/print/c498d1a73bb420caef7a1826965c8262]
+in APPPATH\Views\outlines\print.php on line 111.
+ 1 APPPATH\Views\outlines\print.php(111): date_format('2024-09-27', 'mm/dd/YYYY')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\outlines\\print.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('outlines/print', [], true)
+ 5 APPPATH\Controllers\Outlines.php(196): view('outlines/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->print('c498d1a73bb420caef7a1826965c8262')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:12:40 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:19:12 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:19:28 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:20:24 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 00:21:10 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 00:21:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(124): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 00:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 00:24:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(125): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 00:25:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(125): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 00:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 00:26:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(125): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 06:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 06:47:41 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 06:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 06:47:49 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 06:47:49 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 21:23:23 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:23:28 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:23:29 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:23:59 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:23:59 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:24:09 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 21:24:09 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-03 21:24:09 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\nominations\index.php on line 109.
+ 1 APPPATH\Views\nominations\index.php(109): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\eresearch\\app\\Views\\nominations\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nominations/index', [], true)
+ 5 APPPATH\Controllers\Students.php(371): view('nominations/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->nominations()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:24:14 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:25:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(125): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:40:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: outlines/mytitles/edit/c498d1a73bb420caef7a1826965c8262]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Outlines.php(126): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->edit('c498d1a73bb420caef7a1826965c8262')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:42:18 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:49:09 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:51:28 --> ErrorException: Undefined variable $Nomination
+[Method: GET, Route: outlines/delete/c498d1a73bb420caef7a1826965c8262]
+in APPPATH\Controllers\Outlines.php on line 179.
+ 1 APPPATH\Controllers\Outlines.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nomination', 'C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Outlines.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->delete('c498d1a73bb420caef7a1826965c8262')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:51:55 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:52:39 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:55:46 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:55:50 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:56:05 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:56:12 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:56:17 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:56:19 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:56:50 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:57:34 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:57:37 --> Error: Call to undefined method stdClass::delete()
+[Method: POST, Route: outlines/delete/c498d1a73bb420caef7a1826965c8262]
+in APPPATH\Controllers\Outlines.php on line 165.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->delete('c498d1a73bb420caef7a1826965c8262')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:58:09 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:58:13 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:58:20 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 21:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:58:24 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:59:22 --> ErrorException: Attempt to read property "adviser" on null
+[Method: GET, Route: outlines/delete/c498d1a73bb420caef7a1826965c8262]
+in APPPATH\Controllers\Outlines.php on line 179.
+ 1 APPPATH\Controllers\Outlines.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adviser" on null', 'C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Outlines.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->delete('c498d1a73bb420caef7a1826965c8262')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:59:27 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 21:59:29 --> ErrorException: Attempt to read property "adviser" on null
+[Method: GET, Route: outlines/delete/c498d1a73bb420caef7a1826965c8262]
+in APPPATH\Controllers\Outlines.php on line 179.
+ 1 APPPATH\Controllers\Outlines.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "adviser" on null', 'C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Outlines.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Outlines->delete('c498d1a73bb420caef7a1826965c8262')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlines))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 21:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 21:59:32 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:00:05 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:00:16 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:00:25 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:01:19 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 22:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:27:58 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 22:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 22:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-03 22:28:18 --> [DEPRECATED] Optional parameter $id declared before required parameter $cryptid is implicitly treated as a required parameter in APPPATH\Controllers\Students.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\eresearch\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\eresearch\\app\\Controllers\\Students.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Students')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Students')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Students', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

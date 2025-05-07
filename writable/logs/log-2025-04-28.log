@@ -1,0 +1,44 @@
+CRITICAL - 2025-04-28 09:45:54 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: ims]
+in APPPATH\Controllers\imsController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-28 09:46:09 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: ims]
+in APPPATH\Controllers\imsController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-28 09:47:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ims/index.php"
+[Method: GET, Route: ims]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ims/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('ims/index', [], true)
+ 3 APPPATH\Controllers\imsController.php(10): view('ims/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ImsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 09:51:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ims/index.php"
+[Method: GET, Route: ims]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ims/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('ims/index', [], true)
+ 3 APPPATH\Controllers\imsController.php(10): view('ims/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\imsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\imsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 09:51:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ims/index.php"
+[Method: GET, Route: ims]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ims/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('ims/index', [], true)
+ 3 APPPATH\Controllers\imsController.php(10): view('ims/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\imsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\imsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
