@@ -34,6 +34,32 @@
                 </button>
             </li>
         </ul>
+        
+        <!-- Position the logout button above the user info but near the bottom -->
+        <div style="position: absolute; bottom: 80px; width: 100%; padding: 0 1.5rem;">
+            <hr class="border-secondary opacity-50 my-3">
+            <a href="<?= site_url('logout') ?>" class="btn btn-danger btn-sm d-flex align-items-center justify-content-center w-100 mb-2">
+                <i class="bi bi-box-arrow-right me-2"></i> 
+                <span>Logout</span>
+            </a>
+        </div>
+        
+        <!-- User info at bottom of sidebar with improved styling -->
+        <div class="position-absolute bottom-0 w-100 p-3 border-top border-secondary">
+            <div class="d-flex align-items-center">
+                <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center me-3" 
+                     style="width: 42px; height: 42px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+                    <span class="text-white"><?= substr(session()->get('name') ?? session()->get('username') ?? 'U', 0, 1) ?></span>
+                </div>
+                <div>
+                    <div class="text-white"><?= session()->get('name') ?? session()->get('username') ?? 'User' ?></div>
+                    <small class="text-white-50 d-flex align-items-center">
+                        <i class="bi bi-person-badge me-1"></i>
+                        <?= session()->get('role') ?? 'User' ?>
+                    </small>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="sidebar-backdrop"></div>

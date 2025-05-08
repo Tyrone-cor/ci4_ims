@@ -16,19 +16,12 @@ use CodeIgniter\Filters\SecureHeaders;
 class Filters extends BaseConfig
 {
     public $aliases = [
-        'csrf'          => CSRF::class,
-        'toolbar'       => DebugToolbar::class,
-        'honeypot'      => Honeypot::class,
-        'invalidchars'  => InvalidChars::class,
-        'secureheaders' => SecureHeaders::class,
-        'cors'          => Cors::class,
-        'forcehttps'    => ForceHTTPS::class,
-        'pagecache'     => PageCache::class,
-        'performance'   => PerformanceMetrics::class,
-        'AuthFilter' => \App\Filters\AuthFilter::class,
-        'NoAuthFilter' =>  \App\Filters\NoAuthFilter::class,
-        'auth' => \App\Filters\AuthFilter::class,
-        'noauth' => \App\Filters\NoAuthFilter::class,
+        'csrf'     => \CodeIgniter\Filters\CSRF::class,
+        'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
+        'honeypot' => \CodeIgniter\Filters\Honeypot::class,
+        'invalidchars'  => \CodeIgniter\Filters\InvalidChars::class,
+        'secureheaders' => \CodeIgniter\Filters\SecureHeaders::class,
+        'auth'     => \App\Filters\AuthFilter::class,
     ];
 
     public $globals = [
@@ -38,3 +31,4 @@ class Filters extends BaseConfig
         'after' => []
     ];
 }
+

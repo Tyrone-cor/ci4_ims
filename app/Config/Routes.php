@@ -14,9 +14,19 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 
-// Direct dashboard access
-$routes->get('/', 'Home::index');
-$routes->get('ims', 'Home::index');
+// Authentication routes
+$routes->get('login', 'Auth::login');
+$routes->post('auth/authenticate', 'Auth::authenticate');
+$routes->get('logout', 'Auth::logout');
+
+// Redirect root to login if not authenticated
+$routes->get('/', 'Auth::index');
+
+// Protected routes - require authentication
+$routes->group('', ['filter' => 'auth'], function($routes) {
+    $routes->get('dashboard', 'Dashboard::index');
+    // Add other protected routes here
+});
 
 // API routes
 $routes->group('api', function($routes) {
@@ -49,4 +59,5 @@ $routes->group('api', function($routes) {
     // Report generation routes
     $routes->get('reports/generate/(:segment)', 'Reports::generateReport/$1');
 });
+
 

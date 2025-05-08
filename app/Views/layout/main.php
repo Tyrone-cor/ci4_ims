@@ -72,34 +72,30 @@
                         </a>
                     </li>
                 </ul>
-                
-                <hr class="sidebar-divider my-3 bg-secondary opacity-25">
-                
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-gear"></i>
-                            <span>Settings</span>
-                        </a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-question-circle"></i>
-                            <span>Help</span>
-                        </a>
-                    </li>
-                </ul>
             </div>
             
-            <!-- Sidebar footer with user info -->
-            <div class="sidebar-footer p-3 mt-auto">
+            <!-- Position logout button above the user info with improved styling -->
+            <div style="position: absolute; bottom: 80px; width: 100%; padding: 0 1.5rem;">
+                <hr class="border-secondary opacity-50 my-3">
+                <a href="<?= site_url('logout') ?>" class="btn btn-danger btn-sm d-flex align-items-center justify-content-center w-100">
+                    <i class="bi bi-box-arrow-right me-2"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+            
+            <!-- Sidebar footer with enhanced user info styling -->
+            <div class="sidebar-footer p-3 mt-auto border-top border-secondary" style="background-color: rgba(0,0,0,0.2);">
                 <div class="d-flex align-items-center">
-                    <div class="avatar-circle bg-primary me-3">
-                        <span>JD</span>
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center me-3" 
+                         style="width: 42px; height: 42px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+                        <span class="text-white"><?= substr(session()->get('name') ?? session()->get('username') ?? 'U', 0, 1) ?></span>
                     </div>
                     <div>
-                        <h6 class="mb-0 text-white">John Doe</h6>
-                        <small class="text-white-50">Administrator</small>
+                        <h6 class="mb-0 text-white"><?= session()->get('name') ?? session()->get('username') ?? 'User' ?></h6>
+                        <small class="text-white-50 d-flex align-items-center">
+                            <i class="bi bi-person-badge me-1"></i>
+                            <?= session()->get('role') ?? 'User' ?>
+                        </small>
                     </div>
                 </div>
             </div>
