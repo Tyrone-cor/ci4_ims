@@ -215,15 +215,45 @@
                                         <h5 class="card-title mb-4">Stock Status</h5>
                                         <div class="d-flex justify-content-between mb-3">
                                             <span>In Stock</span>
-                                            <span class="badge bg-success rounded-pill" id="inStockCount">0</span>
+                                            <span class="badge bg-success rounded-pill" id="inStockCount">
+                                                <?php 
+                                                // Get product model to count in-stock items
+                                                $productModel = new \App\Models\ProductModel();
+                                                $inStockCount = $productModel->where('stock >', 10)->countAllResults();
+                                                echo $inStockCount;
+                                                ?>
+                                            </span>
+                                        </div>
+                                        <div class="progress mb-3" style="height: 8px;">
+                                            <div class="progress-bar bg-success" id="inStockProgress" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                         <div class="d-flex justify-content-between mb-3">
                                             <span>Low Stock</span>
-                                            <span class="badge bg-warning rounded-pill" id="lowStockCount">0</span>
+                                            <span class="badge bg-warning rounded-pill" id="lowStockCount">
+                                                <?php 
+                                                // Get product model to count low-stock items
+                                                $productModel = new \App\Models\ProductModel();
+                                                $lowStockCount = $productModel->where('stock >', 0)->where('stock <=', 10)->countAllResults();
+                                                echo $lowStockCount;
+                                                ?>
+                                            </span>
                                         </div>
-                                        <div class="d-flex justify-content-between">
+                                        <div class="progress mb-3" style="height: 8px;">
+                                            <div class="progress-bar bg-warning" id="lowStockProgress" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-3">
                                             <span>Out of Stock</span>
-                                            <span class="badge bg-danger rounded-pill" id="outOfStockCount">0</span>
+                                            <span class="badge bg-danger rounded-pill" id="outOfStockCount">
+                                                <?php 
+                                                // Get product model to count out-of-stock items
+                                                $productModel = new \App\Models\ProductModel();
+                                                $outOfStockCount = $productModel->where('stock', 0)->countAllResults();
+                                                echo $outOfStockCount;
+                                                ?>
+                                            </span>
+                                        </div>
+                                        <div class="progress mb-3" style="height: 8px;">
+                                            <div class="progress-bar bg-danger" id="outOfStockProgress" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>

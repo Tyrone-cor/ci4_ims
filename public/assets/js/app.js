@@ -6,9 +6,14 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-// Base URL configuration
+// Helper function to get base URL with API prefix
 function getBaseUrl() {
-    return '/ci4_ims/api';
+    return window.location.origin + '/ci4_ims';
+}
+
+// Helper function to get API URL
+function getApiUrl() {
+    return getBaseUrl() + '/api';
 }
 
 // Content management
@@ -56,7 +61,7 @@ function showContent(section) {
 // Product functions
 async function loadProducts() {
     try {
-        const response = await fetch(`${getBaseUrl()}/products`, {
+        const response = await fetch(`${getApiUrl()}/products`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -94,7 +99,7 @@ async function loadProducts() {
 
 async function editProduct(id) {
     try {
-        const response = await fetch(`${getBaseUrl()}/products/${id}`, {
+        const response = await fetch(`${getApiUrl()}/products/${id}`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -131,7 +136,7 @@ async function deleteProduct(id) {
     if (!confirm('Are you sure you want to delete this product?')) return;
     
     try {
-        const response = await fetch(`${getBaseUrl()}/products/${id}`, {
+        const response = await fetch(`${getApiUrl()}/products/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
@@ -159,7 +164,7 @@ async function loadCategories(selectId = 'productCategory', selectedId = null) {
             throw new Error(`Select element with id '${selectId}' not found`);
         }
 
-        const response = await fetch(`${getBaseUrl()}/categories`, {
+        const response = await fetch(`${getApiUrl()}/categories`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -193,7 +198,7 @@ async function loadCategories(selectId = 'productCategory', selectedId = null) {
 
 async function loadCategoriesDisplay() {
     try {
-        const response = await fetch(`${getBaseUrl()}/categories`, {
+        const response = await fetch(`${getApiUrl()}/categories`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -232,7 +237,7 @@ async function loadCategoriesDisplay() {
 
 async function editCategory(id) {
     try {
-        const response = await fetch(`${getBaseUrl()}/categories/${id}`, {
+        const response = await fetch(`${getApiUrl()}/categories/${id}`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -264,7 +269,7 @@ async function deleteCategory(id) {
     if (!confirm('Are you sure you want to delete this category?')) return;
     
     try {
-        const response = await fetch(`${getBaseUrl()}/categories/${id}`, {
+        const response = await fetch(`${getApiUrl()}/categories/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
@@ -287,7 +292,7 @@ async function deleteCategory(id) {
 // Supplier functions
 async function loadSuppliers() {
     try {
-        const response = await fetch(`${getBaseUrl()}/suppliers`, {
+        const response = await fetch(`${getApiUrl()}/suppliers`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -353,7 +358,7 @@ async function loadSuppliers() {
 // Add the missing editSupplier function
 async function editSupplier(id) {
     try {
-        const response = await fetch(`${getBaseUrl()}/suppliers/${id}`, {
+        const response = await fetch(`${getApiUrl()}/suppliers/${id}`, {
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
@@ -402,7 +407,7 @@ async function deleteSupplier(id) {
     if (!confirm('Are you sure you want to delete this supplier?')) return;
     
     try {
-        const response = await fetch(`${getBaseUrl()}/suppliers/${id}`, {
+        const response = await fetch(`${getApiUrl()}/suppliers/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
@@ -476,7 +481,7 @@ function escapeHtml(unsafe) {
 // Report functions
 async function loadReports() {
     try {
-        const response = await fetch(`${getBaseUrl()}/reports`, {
+        const response = await fetch(`${getApiUrl()}/reports`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -549,7 +554,7 @@ async function loadReports() {
 // View report function
 async function viewReport(id) {
     try {
-        const response = await fetch(`${getBaseUrl()}/reports/${id}`, {
+        const response = await fetch(`${getApiUrl()}/reports/${id}`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -888,7 +893,7 @@ if (addReportForm) {
         };
 
         try {
-            const response = await fetch(`${getBaseUrl()}/reports`, {
+            const response = await fetch(`${getApiUrl()}/reports`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -924,7 +929,7 @@ async function deleteReport(id) {
     if (!confirm('Are you sure you want to delete this report?')) return;
     
     try {
-        const response = await fetch(`${getBaseUrl()}/reports/${id}`, {
+        const response = await fetch(`${getApiUrl()}/reports/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
@@ -954,7 +959,7 @@ document.querySelector('[data-section="reports"]').addEventListener('click', fun
 // Generate report function
 async function generateReport(type) {
     try {
-        const response = await fetch(`${getBaseUrl()}/reports/generate/${type}`, {
+        const response = await fetch(`${getApiUrl()}/reports/generate/${type}`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -1303,7 +1308,7 @@ async function saveGeneratedReport(title, type, data) {
             description: JSON.stringify(data)
         };
 
-        const response = await fetch(`${getBaseUrl()}/reports`, {
+        const response = await fetch(`${getApiUrl()}/reports`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -1330,7 +1335,7 @@ async function saveGeneratedReport(title, type, data) {
 async function loadDashboardData() {
     try {
         // Fetch products data
-        const productsResponse = await fetch(`${getBaseUrl()}/products`, {
+        const productsResponse = await fetch(`${getApiUrl()}/products`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -1346,12 +1351,12 @@ async function loadDashboardData() {
         const products = productsData.data || [];
 
         // Fetch categories
-        const categoriesResponse = await fetch(`${getBaseUrl()}/categories`);
+        const categoriesResponse = await fetch(`${getApiUrl()}/categories`);
         const categoriesData = await categoriesResponse.json();
         const categories = categoriesData.data || [];
 
         // Fetch suppliers
-        const suppliersResponse = await fetch(`${getBaseUrl()}/suppliers`);
+        const suppliersResponse = await fetch(`${getApiUrl()}/suppliers`);
         const suppliersData = await suppliersResponse.json();
         const suppliers = suppliersData.data || [];
 
@@ -1444,7 +1449,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch(`${getBaseUrl()}/categories`, {
+                const response = await fetch(`${getApiUrl()}/categories`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1486,7 +1491,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch(`${getBaseUrl()}/products`, {
+                const response = await fetch(`${getApiUrl()}/products`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1528,7 +1533,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch(`${getBaseUrl()}/suppliers`, {
+                const response = await fetch(`${getApiUrl()}/suppliers`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1577,7 +1582,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch(`${getBaseUrl()}/reports`, {
+                const response = await fetch(`${getApiUrl()}/reports`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1680,7 +1685,7 @@ document.getElementById('editProductForm')?.addEventListener('submit', async fun
     };
 
     try {
-        const response = await fetch(`${getBaseUrl()}/products/${productId}`, {
+        const response = await fetch(`${getApiUrl()}/products/${productId}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -1712,7 +1717,7 @@ document.getElementById('editCategoryForm')?.addEventListener('submit', async fu
     };
 
     try {
-        const response = await fetch(`${getBaseUrl()}/categories/${categoryId}`, {
+        const response = await fetch(`${getApiUrl()}/categories/${categoryId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -1746,7 +1751,7 @@ document.getElementById('addReportForm').addEventListener('submit', async functi
     };
 
     try {
-        const response = await fetch(`${getBaseUrl()}/reports`, {
+        const response = await fetch(`${getApiUrl()}/reports`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -1795,7 +1800,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch(`${getBaseUrl()}/suppliers/${supplierId}`, {
+                const response = await fetch(`${getApiUrl()}/suppliers/${supplierId}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1971,7 +1976,7 @@ function getSalesTransactions(data) {
 async function updateDashboardStats() {
     try {
         // Fetch products count
-        const productsResponse = await fetch(`${getBaseUrl()}/products`, {
+        const productsResponse = await fetch(`${getApiUrl()}/products`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -2003,7 +2008,7 @@ async function updateDashboardStats() {
         }
         
         // Fetch categories count
-        const categoriesResponse = await fetch(`${getBaseUrl()}/categories`, {
+        const categoriesResponse = await fetch(`${getApiUrl()}/categories`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -2022,7 +2027,7 @@ async function updateDashboardStats() {
         }
         
         // Fetch suppliers count
-        const suppliersResponse = await fetch(`${getBaseUrl()}/suppliers`, {
+        const suppliersResponse = await fetch(`${getApiUrl()}/suppliers`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -2116,18 +2121,18 @@ function setupFormHandlers() {
 // Function to update the top stats cards
 async function updateTopStats() {
     try {
-        // Fetch products data
-        const response = await fetch(`${getBaseUrl()}/products`, {
+        const response = await fetch(`${getApiUrl()}/products`, {
+            method: 'GET',
             headers: {
                 'Accept': 'application/json',
                 'X-Requested-With': 'XMLHttpRequest'
             }
         });
-
+        
         if (!response.ok) {
             throw new Error('Failed to fetch products');
         }
-
+        
         const result = await response.json();
         const products = result.data || [];
         
@@ -2142,7 +2147,7 @@ async function updateTopStats() {
         const lowStockPercentage = totalProducts > 0 ? ((lowStock / totalProducts) * 100).toFixed(1) : 0;
         const outOfStockPercentage = totalProducts > 0 ? ((outOfStock / totalProducts) * 100).toFixed(1) : 0;
         
-        // Update the UI
+        // Update the UI counts
         document.getElementById('totalProductsCount').textContent = totalProducts;
         document.getElementById('inStockCount').textContent = inStock;
         document.getElementById('lowStockCount').textContent = lowStock;
@@ -2152,6 +2157,26 @@ async function updateTopStats() {
         document.getElementById('inStockPercentage').textContent = `${inStockPercentage}% of total`;
         document.getElementById('lowStockChangeText').textContent = `${lowStockPercentage}% of total`;
         document.getElementById('outOfStockChangeText').textContent = `${outOfStockPercentage}% of total`;
+        
+        // Update progress bars
+        const inStockProgress = document.getElementById('inStockProgress');
+        const lowStockProgress = document.getElementById('lowStockProgress');
+        const outOfStockProgress = document.getElementById('outOfStockProgress');
+        
+        if (inStockProgress) {
+            inStockProgress.style.width = `${inStockPercentage}%`;
+            inStockProgress.setAttribute('aria-valuenow', inStockPercentage);
+        }
+        
+        if (lowStockProgress) {
+            lowStockProgress.style.width = `${lowStockPercentage}%`;
+            lowStockProgress.setAttribute('aria-valuenow', lowStockPercentage);
+        }
+        
+        if (outOfStockProgress) {
+            outOfStockProgress.style.width = `${outOfStockPercentage}%`;
+            outOfStockProgress.setAttribute('aria-valuenow', outOfStockPercentage);
+        }
         
         // Update change indicators based on stock status
         document.getElementById('productsChangeText').textContent = 
@@ -2174,16 +2199,30 @@ async function updateTopStats() {
                 `<i class="bi bi-check-circle"></i> <span id="outOfStockChangeText">No out of stock items</span>`;
         }
         
+        // Also update the dashboard stock status section
+        const dashboardInStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #inStockCount');
+        const dashboardLowStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #lowStockCount');
+        const dashboardOutOfStockCount = document.querySelector('#dashboardContent .card:nth-of-type(2) #outOfStockCount');
+        
+        if (dashboardInStockCount) dashboardInStockCount.textContent = inStock;
+        if (dashboardLowStockCount) dashboardLowStockCount.textContent = lowStock;
+        if (dashboardOutOfStockCount) dashboardOutOfStockCount.textContent = outOfStock;
+        
     } catch (error) {
         console.error('Error updating top stats:', error);
         // Don't show an alert for this error to avoid disrupting the UI
     }
 }
 
-// Call updateTopStats when the page loads
+// Make sure updateTopStats is called when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     updateTopStats();
     
     // Refresh stats every 5 minutes
     setInterval(updateTopStats, 300000);
 });
+
+// Helper function to get base URL
+function getBaseUrl() {
+    return window.location.origin + '/ci4_ims';
+}
